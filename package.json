@@ -69,17 +69,17 @@
     "webpack-dev-server": "^4.7.4"
   },
   "consolePlugin": {
-    "name": "console-plugin-template",
-    "version": "0.0.1",
-    "displayName": "OpenShift Console Plugin Template",
-    "description": "Template project for OpenShift Console plugins. Edit package.json to change this message and the plugin name.",
-    "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
-    },
-    "dependencies": {
-      "@console/pluginAPI": "*"
-    }
+  "name": "console-plugin-template",
+  "version": "0.0.1",
+  "displayName": "My Plugin",
+  "description": "Enjoy this shiny, new console plugin!",
+  "exposedModules": {
+    "ExamplePage": "./components/ExamplePage"
   },
+  "dependencies": {
+    "@console/pluginAPI": "*"
+  }
+},
   "peerDependencies": {
     "@babel/core": "^7.0.1",
     "@babel/preset-env": "^7.0.0",
